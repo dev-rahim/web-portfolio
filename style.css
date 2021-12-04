@@ -1,9 +1,33 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
 }
 .name_heighlight{
     color: orange;
+}
+.hero_section{
+    height: 500px;
+    background-image: url('images/top-banner.png');
+    background-repeat: no-repeat;
+   
+}
+.half_secion{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+}
+.half_secion img{
+    width: 100%;
+}
+.hero_sectio_buton{
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background: linear-gradient(45deg,  lightsalmon, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+
 }
